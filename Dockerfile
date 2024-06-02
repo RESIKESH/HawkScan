@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.12.2-alpine
 RUN apk update
 RUN apk add libffi libffi-dev gcc g++ make openssl-dev openssl openssh curl
 WORKDIR /root
